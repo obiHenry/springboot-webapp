@@ -2,13 +2,22 @@ package com.element.springboot.javaWebApp.todo;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.validation.constraints.Size;
 
 //Database (MySQL)
 //static LIst of todos => Database (H2, MySQL)
-
+@Entity
 public class Todo {
-
+	
+	public Todo() {
+		
+	}
+	
+	@Id
+	@GeneratedValue
 	private int id;
 	private String username;
 	

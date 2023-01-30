@@ -17,13 +17,13 @@ public class TodoService {
 	private static int todosCount = 0;
 
 	static {
-		todos.add(new Todo(++todosCount, "element", "learn spring boot", 
+		todos.add(new Todo(++todosCount, "element", "learn spring boot 1", 
 				LocalDate.now().plusYears(1), false));
-		todos.add(new Todo(++todosCount, "favour", "learn  Dsa", 
+		todos.add(new Todo(++todosCount, "favour", "learn  Dsa 1", 
 				LocalDate.now().plusYears(2), false));
-		todos.add(new Todo(++todosCount, "paulo", "learn api services", 
+		todos.add(new Todo(++todosCount, "paulo", "learn api services 1", 
 				LocalDate.now().plusYears(3), false));
-		todos.add(new Todo(++todosCount, "kamso", "learn cyber security", 
+		todos.add(new Todo(++todosCount, "kamso", "learn cyber security 1", 
 				LocalDate.now().plusYears(4), false));
 	}
 	
